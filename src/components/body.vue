@@ -62,12 +62,12 @@ export default {
       if (res.data.length != 0){
          console.log(res.data[0].userid);
          var userid= res.data[0].userid;
-         window.location.href = '?userid=' +userid;
+        // window.location.href = '?userid=' +userid;
 
-            Vue.component(
+          Vue.component(
           'loggedin',
           // A dynamic import returns a Promise.
-          () => import('./components/loggedin.vue')
+          () => import('loggedin.vue')
         )
 
       } else {
