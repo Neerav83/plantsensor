@@ -67,9 +67,7 @@ export default {
   mounted () {
 
   },
-  components: {
-
-  }
+  
 }
 }
 </script>
