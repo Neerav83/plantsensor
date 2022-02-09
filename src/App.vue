@@ -10,9 +10,10 @@
 </head>
 <body>
   <Header msg="Plantsensor" />
-  TEST
+  
   <Container msg="Body" />
-</body>
+
+  </body>
 </html>
 </template>
 
