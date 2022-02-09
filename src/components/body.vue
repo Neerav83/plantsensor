@@ -5,7 +5,7 @@
     <input class='input'  type='text'><br>
       Lösenord:<br>
     <input class='input' type='password'><br><br>
-        <input class='input' type='submit' value='Logga in'>
+        <input class='input' type='submit'  value='Logga in'>
   </div>
 </template>
 
@@ -29,7 +29,7 @@ font-family: 'Roboto', sans-serif;
 
 .input {
  height: 30px;
- width: 350px;
-
+ width: 200px;
+font-size:20px;
 }
 </style>
