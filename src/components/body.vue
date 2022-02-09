@@ -60,7 +60,7 @@ export default {
       .then(res => {
        // console.log("Resultat:")
         console.log(res)
-        if (res=="1"){
+        if (res.data=="1"){
           alert("Success!!")
         }
         else {
