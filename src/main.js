@@ -8,9 +8,12 @@ import routes from './routes'
 
 const app = new Vue({
   el: '#app',
-  data: {
+
+  data () {
+    return {      
     currentRoute: window.location.pathname
-  },
+ }
+  }
   computed: {
     ViewComponent () {
       const matchingView = routes[this.currentRoute]
