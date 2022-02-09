@@ -2,7 +2,7 @@
 <div>
   <Header msg="Plantsensor" />
   
-  <Container msg="Body" />
+  <Container  />
 </div>
 </template>
 
