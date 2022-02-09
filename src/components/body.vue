@@ -2,12 +2,12 @@
   <div class="container">
    <h2>Logga in</h2><br>
        <form @submit.prevent="submitform">
-     Användarnamn:<br>
-    <input class='input' v-model="formdata.name" type='text'><br><br>
-      Lösenord:<br>
-    <input class='input'  v-model="formdata.password" type='password'><br><br>
-        <input class='input' type='submit'  value='Logga in'>
-       </form>
+        Användarnamn:<br>
+        <input class='input' v-model="formdata.name" type='text'><br><br>
+          Lösenord:<br>
+        <input class='input'  v-model="formdata.password" type='password'><br><br>
+            <input class='input' type='submit'  value='Logga in'>
+          </form>
   </div>
 </template>
 
@@ -46,13 +46,14 @@ export default {
   name: 'el',
   data () {
     return {
-       formdata:{ firstname: '', lastname: '', email: '', password: '' }
+       formdata:{name: '', password: '' }
        // this is formdata object to store form values
     }
   },
   methods: {
     submitform(){
-      axios.post('/url', { this.formdata })
+      
+      axios.post('/url', { this:formdata })
       .then(res => {
          // response
       })
