@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-   <h2>Logga in</h2><br><br>
+   <h2>Logga in</h2><br>
      Användarnamn:<br>
     <input class='input'  type='text'><br><br>
       Lösenord:<br>
