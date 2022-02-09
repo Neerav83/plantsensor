@@ -1,19 +1,13 @@
 <template>
   <div class="container">
-    {{ msg }}
-    
+   <h2>Logga in</h2><br><br><br><br> 
+     Användarnamn:<br>
+    <input type='text'><br>
+      Lösenord:<br>
+    <input type='password'><br>
+        <input type='submit' value='Logga in'>
   </div>
 </template>
-
-<script>
-
-export default {
-  name: 'container',
-  props: {
-    msg: String
-  }
-}
-</script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
