@@ -59,7 +59,7 @@ export default {
       axios.post('http://192.168.68.107:8000/checklogin', this.formdata )
       .then(res => {
       
-      console.log(res.data);
+      console.log(res.data.data);
 
       })
       .catch(err => { 
