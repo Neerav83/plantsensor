@@ -32,7 +32,7 @@ font-family: 'Roboto', sans-serif;
 .input {
  height: 30px;
  width: 200px;
-font-size:17px;
+font-size:16px;
 }
 </style>
 
