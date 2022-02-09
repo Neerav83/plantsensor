@@ -59,7 +59,7 @@ export default {
       axios.post('http://192.168.68.107:8000/checklogin', this.formdata )
       .then(res => {
       if (res.data.length != 0){
-         console.log(res.data[0].id);
+         console.log(res.data[0].userid);
       } else {
         console.log("wrong credentials");
       }
