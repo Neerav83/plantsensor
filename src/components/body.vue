@@ -58,7 +58,7 @@ export default {
       
       axios.post('http://192.168.68.107:8000/checklogin', this.formdata )
       .then(res => {
-      if (res.data !== null){
+      if (cres.data.length != 0){
          console.log(res.data[0]);
         console.log(res.data);
       } else {
