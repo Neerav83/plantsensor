@@ -43,17 +43,20 @@ font-size:17px;
 import axios from 'axios'
 
 export default {
-  name: 'el',
+  name: 'Postformdata',
   data () {
     return {
-       formdata:{name: '', password: '' }
+       formdata: {
+          name: '', 
+          password: '' 
+       }
        // this is formdata object to store form values
     }
   },
   methods: {
     submitform(){
       
-      axios.post('/url', { this:formdata })
+      axios.post('/url', { this.formdata })
       .then(res => {
          // response
       })
