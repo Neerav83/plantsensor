@@ -2,7 +2,7 @@
   <div class="container">
    <h2>Logga in</h2><br><br>
      Användarnamn:<br>
-    <input class='input'  type='text'><br>
+    <input class='input'  type='text'><br><br>
       Lösenord:<br>
     <input class='input' type='password'><br><br>
         <input class='input' type='submit'  value='Logga in'>
@@ -30,6 +30,6 @@ font-family: 'Roboto', sans-serif;
 .input {
  height: 30px;
  width: 200px;
-font-size:20px;
+font-size:17px;
 }
 </style>
