@@ -67,7 +67,7 @@ export default {
           Vue.component(
           'loggedin',
           // A dynamic import returns a Promise.
-          () => import('./components/loggedin.vue')
+          () => import('/components/loggedin.vue')
         )
 
       } else {
