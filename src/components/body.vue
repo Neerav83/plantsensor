@@ -35,20 +35,24 @@ font-family: 'Roboto', sans-serif;
 font-size:17px;
 }
 </style>
+
+
+
 <script>
+
 import axios from 'axios'
 
 export default {
   name: 'el',
   data () {
     return {
-       formdata:{ name: '',  password: '' }
+       formdata:{ firstname: '', lastname: '', email: '', password: '' }
        // this is formdata object to store form values
     }
   },
   methods: {
     submitform(){
-      axios.post('/postdata', { this.formdata })
+      axios.post('/url', { this.formdata })
       .then(res => {
          // response
       })
