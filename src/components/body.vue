@@ -9,6 +9,7 @@
             <input class='input' type='submit'  value='Logga in'>
           </form>
   </div>
+
 </template>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
@@ -60,6 +61,9 @@ export default {
       .then(res => {
       if (res.data.length != 0){
          console.log(res.data[0].userid);
+         var userid= res.data[0].userid;
+         window.location.href = '?userid=' +userid;
+
       } else {
         console.log("wrong credentials");
       }
