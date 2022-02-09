@@ -1,8 +1,9 @@
 <template>
+<div>
   <Header msg="Plantsensor" />
   <Container msg="Body" />
+</div>
 </template>
-
 
 <script>
 import Header from './components/header.vue'
