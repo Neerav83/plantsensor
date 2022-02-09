@@ -28,7 +28,6 @@ padding:20px;
 padding-top:50px;
 background-color:white;
 width:100%;
-color:white;
 font-size:25px;
 text-align:center;
 font-family: 'Roboto', sans-serif;
