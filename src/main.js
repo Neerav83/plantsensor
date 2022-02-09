@@ -13,7 +13,7 @@ const app = new Vue({
     return {      
     currentRoute: window.location.pathname
  }
-  }
+  },
   computed: {
     ViewComponent () {
       const matchingView = routes[this.currentRoute]
