@@ -58,15 +58,8 @@ export default {
       
       axios.post('http://192.168.68.107:8000/checklogin', this.formdata )
       .then(res => {
-       // console.log("Resultat:")
-        console.log(res)
-        if (res.data=="1"){
-          alert("Success!!")
-        }
-        else {
-          alert("Wrong Username")
-        }
-
+      
+      console.log(res);
 
       })
       .catch(err => { 
