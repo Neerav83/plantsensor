@@ -58,11 +58,11 @@ export default {
       
       axios.post('/url', this.formdata )
       .then(res => {
-         // response
+        console.log(res)
       })
       .catch(err => { 
-         // error 
-      })
+          console.log(err)
+        })
   },
   mounted () {
 
