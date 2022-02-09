@@ -10,7 +10,6 @@
 <script>
 import Header from './components/header.vue'
 import Container from './components/body.vue'
-import Loggedin from './components/loggedin.vue'
 
 
 
