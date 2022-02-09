@@ -61,7 +61,7 @@ export default {
       .then(res => {
       if (res.data.length != 0){
          console.log(res.data[0].userid);
-         var userid= res.data[0].userid;
+        // var userid= res.data[0].userid;
         // window.location.href = '?userid=' +userid;
 
           Vue.component(
