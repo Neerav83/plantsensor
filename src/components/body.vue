@@ -1,11 +1,13 @@
 <template>
   <div class="container">
    <h2>Logga in</h2><br>
+       <form @submit.prevent="submitform">
      Användarnamn:<br>
-    <input class='input'  type='text'><br><br>
+    <input class='input' v-model="formdata.name" type='text'><br><br>
       Lösenord:<br>
-    <input class='input' type='password'><br><br>
+    <input class='input'  v-model="formdata.password" type='password'><br><br>
         <input class='input' type='submit'  value='Logga in'>
+       </form>
   </div>
 </template>
 
@@ -33,3 +35,33 @@ font-family: 'Roboto', sans-serif;
 font-size:17px;
 }
 </style>
+<script>
+import axios from 'axios'
+
+export default {
+  name: 'el',
+  data () {
+    return {
+       formdata:{ name: '',  password: '' }
+       // this is formdata object to store form values
+    }
+  },
+  methods: {
+    submitform(){
+      axios.post('/postdata', { formdata })
+      .then(res => {
+         // response
+      })
+      .catch(err => { 
+         // error 
+      })
+  },
+  mounted () {
+
+  },
+  components: {
+
+  }
+}
+}
+</script>
