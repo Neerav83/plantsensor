@@ -25,7 +25,7 @@ top:0px;
 left:0px;
 padding:20px;
 background-color:green;
-width:100%;
+width:calc(100% - 40px);
 color:white;
 font-size:25px;
 text-align:center;
