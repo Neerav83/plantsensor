@@ -13,7 +13,8 @@ import Container from './components/body.vue'
 export default {
   name: 'App',
   components: {
-    'Header':Header
+    'Header':Header,
+    'Container':Container	
 
   }
 }
