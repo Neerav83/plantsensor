@@ -60,7 +60,6 @@ export default {
       .then(res => {
       if (res.data.length != 0){
          console.log(res.data[0]);
-        console.log(res.data);
       } else {
         console.log("wrong credentials");
       }
