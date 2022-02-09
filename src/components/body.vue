@@ -1,11 +1,11 @@
 <template>
   <div class="container">
-   <h2>Logga in</h2><br><br><br><br> 
+   <h2>Logga in</h2><br><br>
      Användarnamn:<br>
-    <input type='text'><br>
+    <input class='input'  type='text'><br>
       Lösenord:<br>
     <input type='password'><br>
-        <input type='submit' value='Logga in'>
+        <input class='input' type='submit' value='Logga in'>
   </div>
 </template>
 
@@ -27,4 +27,9 @@ text-align:center;
 font-family: 'Roboto', sans-serif;
 } 
 
+.input {
+ height: 30px;
+ width: 350px;
+
+}
 </style>
