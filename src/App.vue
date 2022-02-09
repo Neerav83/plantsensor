@@ -11,7 +11,7 @@
 import Header from './components/header.vue'
 import Container from './components/body.vue'
 
-console.log(new URL(location.href).searchParams.get('username'));
+console.log(new URL(location.href).searchParams.get('userid'));
 
 export default {
   name: 'App',
