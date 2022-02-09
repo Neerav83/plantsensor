@@ -48,7 +48,7 @@ export default {
   },
   methods: {
     submitform(){
-      axios.post('/postdata', { formdata })
+      axios.post('/postdata', { this.formdata })
       .then(res => {
          // response
       })
