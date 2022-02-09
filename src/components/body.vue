@@ -27,7 +27,7 @@ left:0px;
 padding:20px;
 padding-top:50px;
 background-color:white;
-width:100%;
+width:calc(100% - 40px);
 font-size:25px;
 text-align:center;
 font-family: 'Roboto', sans-serif;
