@@ -4,7 +4,7 @@
      Användarnamn:<br>
     <input class='input'  type='text'><br>
       Lösenord:<br>
-    <input type='password'><br>
+    <input class='input' type='password'><br><br>
         <input class='input' type='submit' value='Logga in'>
   </div>
 </template>
