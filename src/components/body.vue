@@ -64,11 +64,7 @@ export default {
         // var userid= res.data[0].userid;
         // window.location.href = '?userid=' +userid;
 
-          Vue.component(
-          'loggedin',
-          // A dynamic import returns a Promise.
-          () => import('/components/loggedin.vue')
-        )
+        
 
       } else {
         console.log("wrong credentials");
