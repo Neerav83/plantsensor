@@ -56,7 +56,7 @@ export default {
   methods: {
     submitform(){
       
-      axios.post('/url', { this.formdata })
+      axios.post('/url', this.formdata )
       .then(res => {
          // response
       })
